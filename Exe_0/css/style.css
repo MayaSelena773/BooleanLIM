@@ -1,0 +1,146 @@
+/* HTML set up */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Font importati*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700;1,900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Sfondo Sito Boolean LIM*/
+.sfondo-cont{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+/* Background */
+.background{
+    background-image: url(./../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Container */
+.containerLim{
+    display: flex;
+    width: 60vw;
+    height: 90vh;
+    margin: 2% auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    width: 80%;
+    height: 15%;
+    margin: 10px auto;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+.row2{
+    display: flex;
+    width: 80%;
+    height: auto;
+    margin: 1% auto;
+    justify-content: center;
+}
+
+.borderRound{
+    border-radius: 10px;
+}
+
+.borderRound1{
+    border-radius: 5px;
+}
+
+.color_greenLime{
+    color: #05CF04;
+}
+
+.background_greenLime{
+    background-color: #05CF04;
+}
+
+.row3{
+    display: flex;
+    width: 80%;
+    height: 5%;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 8px;
+}
+
+.paddingA{
+    padding: 2px;
+}
+
+.paddingB{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.marginA{
+    margin-right: 3px;
+}
+
+.marginB{
+    margin-top: 20px;
+}
+
+.row4{
+    display: flex;
+    width: 80%;
+    height: 5%;
+    margin: 0 auto;
+    justify-content: start;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.colorWhite{
+    color: white;
+}
+
+.marginbottomA{
+    margin-bottom: 10px;
+}
+
+.marginbottomB{
+    margin-bottom: 20px;
+}
+
+.marginbottomC{
+    margin-bottom: 5px;
+}
+
+.fontsizeA{
+    font-size: 1.8em;
+}
+
+.chargeBarA{
+    display: flex;
+    width: 40%;
+    padding: 20px;
+    background-color: #F8BA47;
+}
+
+.chargeBarB{
+    display: flex;
+    width: 80%;
+    padding: 20px;
+    background-color: #00DB2A;
+}
+
+.chargeBarC{
+    display: flex;
+    width: 20%;
+    padding: 20px;
+    background-color: #C92338;
+}
